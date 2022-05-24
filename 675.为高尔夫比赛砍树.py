@@ -6,6 +6,8 @@
 
 # from collections import deque
 # from typing import List
+# 思路：首先对forest按照高度排序，然后使用BFS遍历寻找两个节点之间的距离，最后将距离相加
+# deque是python3的一个双向队列对象，可以方便的在两边添加和移除元素： https://docs.python.org/zh-cn/3/library/collections.html?highlight=deque#deque-objects
 
 # @lc code=start
 class Solution:
