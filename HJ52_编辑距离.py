@@ -1,4 +1,9 @@
+'''
+Tag: dp， 编辑距离
+'''
+
 def c_distance(str1, str2):
+    # 矩阵长度须为 str1 + 1, str2 + 1
     x = len(str1) + 1
     y = len(str2) + 1
     dp = [[0 for i in range(y)] for j in range(x)]
