@@ -17,7 +17,8 @@ class Solution:
                 if curDistance != len(nums) - 1:
                     ans += 1
                     curDistance = nextDistance
-                    if nextDistance >= len(nums) - 1: break
+                    if nextDistance >= len(nums) - 1:
+                        break
         return ans
 # @lc code=end
 
