@@ -22,4 +22,4 @@ def solution(A):
         print(sums)
     return count
 
-print(solution([2, -2, 3, 0, 4, -7, 1]))
+print(solution([1,2,1,2,1]))
